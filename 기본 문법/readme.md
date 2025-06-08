@@ -60,12 +60,6 @@ column3 datatype DEFAULT value
 );
 ```
 ---
-WHERE: 삭제할 행의 조건 지정
-TRUNCATE: 테이블의 모든 데이터를 빠르게 삭제
-CASCADE: 외래키 관련 데이터도 함께 삭제
-LIMIT: 삭제할 행의 개수 제한
----
----
 ## ALTER TABLE 문
 ```sql
 -- 컬럼 추가

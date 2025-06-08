@@ -18,7 +18,8 @@ SELECT column1, column2
 FROM table_name
 WHERE 조건
 ORDER BY column1 ASC|DESC;
-
+```
+---
 DISTINCT: 중복 제거
 GROUP BY: 집계 기준
 HAVING: 집계 조건 필터링

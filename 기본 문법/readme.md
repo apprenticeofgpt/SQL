@@ -25,7 +25,14 @@ GROUP BY: 집계 기준
 HAVING: 집계 조건 필터링
 ORDER BY: 정렬
 
+---
 
+## UPDATE 문
+
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2
+WHERE 조건;
 
 
 

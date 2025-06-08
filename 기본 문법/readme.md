@@ -4,7 +4,7 @@ SQL (Structured Query Language)은 관계형 데이터베이스에서 데이터�
 
 ---
 
-## ✅ SQL 명령어 분류
+##  SQL 명령어 분류
 
 | 종류 | 설명 | 주요 명령어 |
 |------|------|-------------|
@@ -15,7 +15,7 @@ SQL (Structured Query Language)은 관계형 데이터베이스에서 데이터�
 
 ---
 
-## ✅ SELECT 문
+## SELECT 문
 
 ```sql
 SELECT column1, column2

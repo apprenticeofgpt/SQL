@@ -33,6 +33,54 @@ ORDER BY: 정렬
 UPDATE table_name
 SET column1 = value1, column2 = value2
 WHERE 조건;
+```
+---
+## INSERT 문
+```sql
+INSERT INTO table_name (column1, column2)
+VALUES (value1, value2);
+-- 여러 행 삽입
+INSERT INTO table_name (column1, column2)
+VALUES
+(value1, value2),
+(value3, value4);
+```
+---
+## DELETE 문
+```sql
+DELETE FROM table_name
+WHERE 조건;
+-- 모든 데이터 삭제
+TRUNCATE TABLE table_name;
+CREATE TABLE 문
+CREATE TABLE table_name (
+column1 datatype PRIMARY KEY,
+column2 datatype NOT NULL,
+column3 datatype DEFAULT value
+);
+```
+---
+## ALTER TABLE 문
+```sql
+-- 컬럼 추가
+ALTER TABLE table_name ADD column_name datatype;
+-- 컬럼 수정
+ALTER TABLE table_name MODIFY column_name datatype;
+-- 컬럼 삭제
+ALTER TABLE table_name DROP COLUMN column_name;
+```
+---
 
-
-
+## WHERE 절 조건
+```sql
+-- 비교 연산자
+WHERE column = value
+WHERE column != value
+WHERE column > value
+-- 범위 조건
+WHERE column BETWEEN value1 AND value2
+WHERE column IN (value1, value2, value3)
+-- 패턴 매칭
+WHERE column LIKE 'pattern%'   -- pattern으로 시작
+WHERE column LIKE '%pattern%'  -- pattern 포함
+```

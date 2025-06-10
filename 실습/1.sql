@@ -1,5 +1,4 @@
 /* 문자 연결 문제 */ 
-
 select * from student; 
 
 select name, id, weight from student; 
